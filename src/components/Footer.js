@@ -17,8 +17,9 @@ const AdditionalResources = () => {
               MongoDB Community
             </span>
           </a>{" "}
-          to interact with our product and engineering teams along with
+          to interact with our product and engineering teams along with 
           thousands of other MongoDB and Realm users.
+          
         </div>
         <img
           src={Community}
