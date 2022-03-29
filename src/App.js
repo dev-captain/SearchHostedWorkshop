@@ -16,7 +16,7 @@ function App() {
             <div className="flex items-center mx-auto">
               <img src={SearchIcon} alt="search hero" className="mx-6 w-24" />
               <div className="font-noto text-center text-3xl">
-                Tutoriel: Premiers pas avec MongoDB Atlas Search
+                Tutoriel: Premiers Pas avec MongoDB Atlas Search
               </div>
             </div>
             <div className="flex">

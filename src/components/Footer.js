@@ -7,8 +7,8 @@ import Twitter from "../images/Twitterblue.png";
 
 const Footer = () => {
   return (
-    <div className="flex justify-around mx-20">
-      <div className="flex mt-10 text-black px-12 text-lg pb-2">
+    <div className="flex justify-evenly px-20">
+      <div className="flex mt-10 text-black px-8 text-lg pb-2">
         <img
           src={Idriss}
           alt="search hero"
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex mt-10 text-black px-12 text-lg pb-2">
+      <div className="flex mt-10 text-black px-8 text-lg pb-2">
         <img
           src={Karen}
           alt="search hero"
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-10 text-black px-12 text-lg pb-2">
+      <div className="flex mt-10 text-black px-8 text-lg pb-2">
         <img
           src={Snehal}
           alt="search hero"
