@@ -46,7 +46,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex items-center ">
+        <div className="flex items-center mx-20 ">
           <img
             src={Compass}
             alt="Compass"
@@ -86,11 +86,11 @@ function App() {
               CodeSandox.io et est prête à être utilisée.
             </ul>
           </div>
-          <div>
+          <div className="w-48 p-4 border-2 border-springgreen">
             <img
               src={QRCode}
               alt="QRCode"
-              className="mx-auto items-center pt-10 w-2/5 "
+              className="mx-auto items-center w-full "
             />
           </div>
         </div>
