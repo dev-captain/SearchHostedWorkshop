@@ -24,6 +24,7 @@ module.exports = {
       },
       fontFamily: {
         lexend: ["Lexend Deca", "sans-serif"],
+        noto: ["Noto Serif", "serif"],
       },
     },
     screens: {
