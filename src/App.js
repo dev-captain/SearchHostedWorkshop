@@ -34,38 +34,40 @@ function App() {
               this workshop:
             </div>
             <br></br>
-            <div>
-              1. local computer with internet connection and a modern browser.
-            </div>
-            <br></br>
-            <div>
-              2.{" "}
-              <a
-                className="underline decoration-indigo-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://cloud.mongodb.com"
-              >
-                MongoDB Atlas Account and free cluster
-              </a>
-            </div>
-            <br></br>
-            <div>
-              3.{" "}
-              <a
-                className="underline decoration-indigo-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.mongodb.com/try/download/compass?tck=docs_compass"
-              >
-                MongoDB Compass
-              </a>
-            </div>
-            <br></br>
-            <div>
-              4. The frontend application below hosted on GitHub and
-              CodeSandox.io sits ready for you to fork.
-            </div>
+            <ul className="ml-10">
+              <div>
+                1. local computer with internet connection and a modern browser.
+              </div>
+              <br></br>
+              <div>
+                2.{" "}
+                <a
+                  className="underline decoration-indigo-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://cloud.mongodb.com"
+                >
+                  MongoDB Atlas Account and free cluster
+                </a>
+              </div>
+              <br></br>
+              <div>
+                3.{" "}
+                <a
+                  className="underline decoration-indigo-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.mongodb.com/try/download/compass?tck=docs_compass"
+                >
+                  MongoDB Compass
+                </a>
+              </div>
+              <br></br>
+              <div>
+                4. The frontend application below hosted on GitHub and
+                CodeSandox.io sits ready for you to fork.
+              </div>
+            </ul>
           </div>
           <img src={SearchIcon} alt="search hero" className="mx-6 w-36" />
         </div>
