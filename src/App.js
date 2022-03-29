@@ -21,7 +21,7 @@ function App() {
             </div>
             <div className="flex">
               <img src={SearchHero} alt="search hero" className="mx-6 w-64" />
-              <div className=" mx-4 flow-root text-xl mt-10">
+              <div className=" mx-4 flow-root text-lg mt-10">
                 Avec Atlas Search, nous avons rendu le travail avec les données
                 encore plus facile en vous permettant de construire des
                 capacités de recherche puissantes, flexibles et sophistiquées
@@ -51,8 +51,8 @@ function App() {
             src={Compass}
             alt="Compass"
             className="mx-auto items-center pt-10 w-28 "
-          />
-          <div className=" mx-4 mt-10 w-3/4 text-xl">
+          />{" "}
+          <div className=" mx-4 mt-10 w-3/4 text-lg">
             <div>
               Le matériel et les installations suivants sont nécessaires pour
               suivre cet atelier :
