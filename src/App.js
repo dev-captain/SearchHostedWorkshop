@@ -98,7 +98,7 @@ function App() {
 
       <div className="h-full w-100">
         <iframe
-          src="https://codesandbox.io/embed/festive-platform-gshdc3?fontsize=14&hidenavigation=1&theme=dark"
+          src="https://codesandbox.io/embed/github/khuaulme/AtlasSearchWorkshop2022/tree/main/?fontsize=14&hidenavigation=1&theme=dark"
           className="mt-10 w-11/12 mx-auto h-96"
           title="festive-platform-gshdc3"
           allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
