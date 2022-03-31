@@ -5,18 +5,26 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import SearchIcon from "./images/SearchIcon.png";
 import Compass from "./images/Compass.png";
+import Mflix from "./images/Mflix.png";
 
 function App() {
   return (
     <div h-screen bg-white>
       <Header />
-      <div className="flex flex-col px-40 pt-10">
+      <div className="flex flex-col px-20 pt-10">
         <div className="flex items-center">
           <div className="flex flex-col">
-            <div className="flex items-center mx-auto">
-              <img src={SearchIcon} alt="search hero" className="mx-6 w-24" />
+            <div className="flex items-center mx-auto justify-between">
+              <img src={SearchIcon} alt="search hero" className="mx-2 w-24" />
               <div className="font-noto text-center text-3xl">
                 Tutoriel: Premiers Pas avec MongoDB Atlas Search
+              </div>
+              <div className="ml-40 w-36 p-4 border-2 border-springgreen">
+                <img
+                  src={QRCode}
+                  alt="QRCode"
+                  className="mx-auto items-center w-full "
+                />
               </div>
             </div>
             <div className="flex">
@@ -46,51 +54,61 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex items-center mx-20 ">
-          <img
-            src={Compass}
-            alt="Compass"
-            className="mx-auto items-center pt-10 w-28 "
-          />{" "}
-          <div className=" mx-4 mt-10 w-3/4 text-lg">
+
+        <div className="flex items-center mx-20 justify-evenly">
+          <div className="mx-4 mt-10 w-1/2 text-lg">
             <div>
               Le matériel et les installations suivants sont nécessaires pour
               suivre cet atelier :
             </div>
-
-            <ul className="ml-10 mt-4">
-              1. Un ordinateur avec une connexion Internet et un navigateur
-              moderne.
-              <br></br>
-              2.{" "}
-              <a
-                className="underline decoration-indigo-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://cloud.mongodb.com"
-              >
-                Compte Atlas MongoDB et cluster gratuit
-              </a>
-              <br></br>
-              3.{" "}
-              <a
-                className="underline decoration-indigo-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.mongodb.com/try/download/compass?tck=docs_compass"
-              >
-                MongoDB Compass
-              </a>
-              <br></br>
-              4. L’application frontend ci-dessous est hébergée sur GitHub et
-              CodeSandox.io et est prête à être utilisée.
-            </ul>
+            <div className="flex">
+              <img
+                src={Compass}
+                alt="Compass"
+                className="mx-auto items-center w-20 h-20 my-auto "
+              />{" "}
+              <ul className="ml-10 mt-4">
+                1. Un ordinateur avec une connexion Internet et un navigateur
+                moderne.
+                <br></br>
+                2.{" "}
+                <a
+                  className="underline decoration-indigo-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://cloud.mongodb.com"
+                >
+                  Compte Atlas MongoDB et cluster gratuit
+                </a>
+                <br></br>
+                3.{" "}
+                <a
+                  className="underline decoration-indigo-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.mongodb.com/try/download/compass?tck=docs_compass"
+                >
+                  MongoDB Compass
+                </a>
+                <br></br>
+                4. L’application frontend ci-dessous est hébergée sur GitHub et
+                CodeSandox.io et est prête à être utilisée.
+              </ul>
+            </div>
           </div>
-          <div className="w-48 p-4 border-2 border-springgreen">
+          <div className="w-1/3 text-center">
+            <a
+              className="font-noto text-center text-3xl text-forestgreen"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.atlassearchmovies.com"
+            >
+              www.atlassearchmovies.com
+            </a>
             <img
-              src={QRCode}
-              alt="QRCode"
-              className="mx-auto items-center w-full "
+              src={Mflix}
+              alt="App"
+              className="mx-auto items-center shadow-xl rounded-xl w-full mt-4"
             />
           </div>
         </div>
