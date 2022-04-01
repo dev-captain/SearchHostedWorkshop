@@ -101,7 +101,7 @@ function App() {
               className="font-noto text-center text-3xl text-forestgreen"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.atlassearchmovies.com"
+              href="https://netflixclone-xwaaq.mongodbstitch.com"
             >
               www.atlassearchmovies.com
             </a>
