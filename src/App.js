@@ -3,6 +3,7 @@ import SearchHero from "./images/SearchHero.png";
 import QRCode from "./images/QRCode.png";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import AdditionalResources from "./components/AdditionalResources";
 import SearchIcon from "./images/SearchIcon.png";
 import Compass from "./images/Compass.png";
 import Mflix from "./images/Mflix.png";
@@ -91,7 +92,17 @@ function App() {
                   MongoDB Compass
                 </a>
                 <br></br>
-                4. L’application frontend ci-dessous est hébergée sur GitHub et
+                4.{" "}
+                <a
+                  className="underline decoration-indigo-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://docs.google.com/document/d/1NeSouAhnQg9kYW272uDcLMVRmnFy1G8Vfh_wnJLHmYg/edit?usp=sharing"
+                >
+                  Google Doc: Atlas Search Tutorial - Written Steps
+                </a>
+                <br></br>
+                5. L’application frontend ci-dessous est hébergée sur GitHub et
                 CodeSandox.io et est prête à être utilisée.
               </ul>
             </div>
@@ -124,6 +135,7 @@ function App() {
         ></iframe>
       </div>
       <Footer />
+      <AdditionalResources />
     </div>
   );
 }
