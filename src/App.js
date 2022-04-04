@@ -77,9 +77,9 @@ function App() {
                   className="underline decoration-indigo-500"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://cloud.mongodb.com"
+                  href="https://docs.google.com/document/d/1NeSouAhnQg9kYW272uDcLMVRmnFy1G8Vfh_wnJLHmYg/edit?usp=sharing"
                 >
-                  Compte Atlas MongoDB et cluster gratuit
+                  Google Doc: Atlas Search Tutorial
                 </a>
                 <br></br>
                 3.{" "}
@@ -87,9 +87,9 @@ function App() {
                   className="underline decoration-indigo-500"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.mongodb.com/try/download/compass?tck=docs_compass"
+                  href="https://cloud.mongodb.com"
                 >
-                  MongoDB Compass
+                  Compte Atlas MongoDB et cluster gratuit
                 </a>
                 <br></br>
                 4.{" "}
@@ -97,13 +97,13 @@ function App() {
                   className="underline decoration-indigo-500"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://docs.google.com/document/d/1NeSouAhnQg9kYW272uDcLMVRmnFy1G8Vfh_wnJLHmYg/edit?usp=sharing"
+                  href="https://www.mongodb.com/try/download/compass?tck=docs_compass"
                 >
-                  Google Doc: Atlas Search Tutorial - Written Steps
+                  MongoDB Compass (Optional)
                 </a>
                 <br></br>
                 5. L’application frontend ci-dessous est hébergée sur GitHub et
-                CodeSandox.io et est prête à être utilisée.
+                CodeSandbox.io et est prête à être utilisée.
               </ul>
             </div>
           </div>
