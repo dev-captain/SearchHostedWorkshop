@@ -102,7 +102,7 @@ Feel free to customize for the event name and details, presenters, resources or 
 <br/>
 
 <div style="display: flex; ">
-<img style="margin-right: 2em;" src="thanks.png" width="200"  />
+<img align="center" src="thanks.png" width="350"  />
 
 <p><b>Brian Leonard</b> - In my 4+ years at MongoDB, I have never written a workshop that wasn't ripped off of Brian in some way. #BeLikeBrian<br></br>
 <b>Snehal Bhatia</b>- That Google doc, tho!</p>
