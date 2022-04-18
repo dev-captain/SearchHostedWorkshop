@@ -1,9 +1,13 @@
 import React from "react";
-import SearchHero from "./images/SearchHero.png";
-import QRCode from "./images/QRCode.png";
+//components
+import QRCode from "./images/JPMC_QR_Code.png";
+import CodeSandbox from "./components/CodeSandbox";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import AdditionalResources from "./components/AdditionalResources";
+
+//images
+import SearchHero from "./images/SearchHero.png";
 import SearchIcon from "./images/SearchIcon.png";
 import Compass from "./images/Compass.png";
 import Mflix from "./images/Mflix.png";
@@ -18,9 +22,9 @@ function App() {
             <div className="flex items-center mx-auto justify-between">
               <img src={SearchIcon} alt="search hero" className="mx-2 w-24" />
               <div className="font-noto text-center text-3xl">
-                Tutoriel: Premiers Pas avec MongoDB Atlas Search
+                Atlas Search: To Find it Fast, Look No Further
               </div>
-              <div className="ml-40 w-36 p-4 border-2 border-springgreen">
+              <div className="ml-40 w-36 p-2 rounded-full border-2 border-springgreen">
                 <img
                   src={QRCode}
                   alt="QRCode"
@@ -30,13 +34,12 @@ function App() {
             </div>
             <div className="flex">
               <img src={SearchHero} alt="search hero" className="mx-6 w-64" />
-              <div className=" mx-4 flow-root text-lg mt-10">
-                Avec Atlas Search, nous avons rendu le travail avec les données
-                encore plus facile en vous permettant de construire des
-                capacités de recherche puissantes, flexibles et sophistiquées
-                dans vos applications MongoDB! <br></br> <br></br>Au cours de
-                cet atelier, nous allons créer notre propre clone de Netflix en
-                utilisant la base de données{" "}
+              <div className=" mx-4 flow-root text-lg mt-4">
+                With Atlas Search, we have made it even easier to work with data
+                by allowing you to build powerful, flexible, and sophisticated
+                search capabilities into your MongoDB applications!
+                <br></br> <br></br>In this workshop, we will build out our very
+                own Netflix Clone using the{" "}
                 <a
                   className="underline decoration-indigo-500"
                   target="_blank"
@@ -45,12 +48,11 @@ function App() {
                 >
                   sample_mflix
                 </a>{" "}
-                disponible dans le sample dataset que propose Atlas. Nous allons
-                construire et combiner rapidement des paramètres de recherche
-                variés tout en implémentant le fuzzy-matching, l’autocompletion,
-                le highlighting et de nombreuses autres fonctionnalités de
-                recherche. En cours de route, nous approfondirons également les
-                analyseurs et les index de Lucene.
+                database in the Atlas sample dataset. We will quickly construct
+                and combine varied search parameters while implementing
+                fuzzy-matching, autocomplete, highlighting and many other search
+                features. Along the way, we'll also go deep on Lucene analyzers
+                and indexes.
               </div>
             </div>
           </div>
@@ -59,8 +61,8 @@ function App() {
         <div className="flex items-center mx-20 justify-evenly">
           <div className="mx-4 mt-10 w-1/2 text-lg">
             <div>
-              Le matériel et les installations suivants sont nécessaires pour
-              suivre cet atelier :
+              The following hardware and installations are required to complete
+              this workshop:
             </div>
             <div className="flex">
               <img
@@ -69,8 +71,7 @@ function App() {
                 className="mx-auto items-center w-20 h-20 my-auto "
               />{" "}
               <ul className="ml-10 mt-4">
-                1. Un ordinateur avec une connexion Internet et un navigateur
-                moderne.
+                1. local computer with internet connection and a modern browser
                 <br></br>
                 2.{" "}
                 <a
@@ -89,7 +90,7 @@ function App() {
                   rel="noopener noreferrer"
                   href="https://cloud.mongodb.com"
                 >
-                  Compte Atlas MongoDB et cluster gratuit
+                  MongoDB Atlas account and free cluster
                 </a>
                 <br></br>
                 4.{" "}
@@ -102,8 +103,8 @@ function App() {
                   MongoDB Compass (Optional)
                 </a>
                 <br></br>
-                5. L’application frontend ci-dessous est hébergée sur GitHub et
-                CodeSandbox.io et est prête à être utilisée.
+                5. The frontend application below is hosted on GitHub and
+                CodeSandox.io and sits ready for you to fork.
               </ul>
             </div>
           </div>
@@ -124,16 +125,8 @@ function App() {
           </div>
         </div>
       </div>
+      <CodeSandbox />
 
-      <div className="h-full w-100">
-        <iframe
-          src="https://codesandbox.io/embed/github/khuaulme/AtlasSearchWorkshop2022/tree/main/?fontsize=14&hidenavigation=1&theme=dark"
-          className="mt-10 w-11/12 mx-auto h-96"
-          title="festive-platform-gshdc3"
-          allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-          sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-        ></iframe>
-      </div>
       <Footer />
       <AdditionalResources />
     </div>

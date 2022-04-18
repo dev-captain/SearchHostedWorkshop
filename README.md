@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+## Atlas Search Workshop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello! 👋 Do you want to run an Atlas Search Workshop the easy way? Clone this repo!
 
-## Available Scripts
+https://www.atlassearchworkshop.com
 
-In the project directory, you can run:
+<br/>
+<div align="center">
+<img src="WorkshopWebSite.png" width="650"  />
+</div>
+<br/>
 
-### `npm start`
+In the web application, you'll find:
+
+- a Google document with step-by-step instructions
+- an embedded CodeSandbox (ready to fork for workshop attendees) with the code for the MongoDB Netflix Clone found at www.atlassearchmovies.com (https://github.com/khuaulme/AtlasSearchWorkshop2022)
+
+<br/>
+<div align="center">
+<img src="NetflixClone.png" width="650"  />
+</div>
+<br/>
+<p> By building out the MongoDB Netflix Clone application, you'll demonstrate all sorts of  complex, fine-grained full-text searches on your Atlas data.</p>
+
+Current features implemented in this Movie Search Engine demo application include:
+
+- fuzzy matching
+- highlighting
+- autocomplete
+- relevance-based scoring
+- custom function scoring
+
+Future Atlas Search features to implement can include:
+
+- [ ] facets
+- [ ] synonyms
+
+<h2 align="center"><a href="netflixclone-xwaaq.mongodbstitch.com/">www.atlassearchmovies.com</a></h2>
+
+<p>The movie search application was created using:</p>
+
+- React
+- MongoDB Realm for backend HTTPs endpoints and webhooks
+- The Atlas sample dataset of sample_mflix.movies
+
+<h3>API Points of Integration</h3>
+This application is hosted entirely on Realm and calls 2 API endpoints:
+ 
+ * getProductsEndpoint in the Home.js page on line 24
+ * Suggestions_AC_Endpoint, used for autocompleted product names, in the Header.js component on line 17.
+
+<p><em>Currently this app is not suitable for mobile, but feel free to send a PR.</em> 😊</p>
+
+<h3>Attendee Prerequisites:</h3>
+
+- A MongoDB Atlas account. Get one for free <a href="https://www.mongodb.com/cloud/atlas">here.</a>
+- A recent version of Node.js and npm.
+- Atlas sample dataset
+- (Recommended) <a href="https://www.mongodb.com/try/download/compass">MongoDB Compass - GUI (optional)</a>
+
+<p>This application is hosted entirely by MongoDB Atlas was created using:</p>
+
+- React
+- MongoDB Realm for backend HTTPs endpoints and webhooks
+- MongoDB's Atlas sample_mflix dataset
+
+<h2>Workshop Attendees Will Need to:</h2>
+
+<ol>
+<li> Load data to Atlas cluster:
+<ul>
+<li>database: <code>sample_mflix</code></li>
+<li>collection: <code>movies</code></li>
+</ul>
+</li>
+
+<li> Create Search indexes.</li>
+<li> Create a Realm Application.</li>
+<li> Create 2 HTTP Endpoints inside of Realm.</li>
+</ol>
+
+<h2>To Build and Run this Search Workshop Application:</h2>
+
+1. Clone the repo.
+2. Navigate inside directory.
+3. Run <code>npm install</code> .
+4. Run <code>npm start </code> .
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>To Customize this Workshop:</h2>
+The workshop is all entirely on App.js with the following React components:
+<div style="display:flex;">
+<img src="Header.png" width="350"  />
+<img src="Footer.png" width="350"  />
+</div>
 
-### `npm test`
+Feel free to customize for the event name and details, presenters, resources or even the git repo in the embedded code sandbox.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Special Thanks </h2>
+<br/>
 
-### `npm run build`
+<div style="display: flex;">
+<iframe src="https://giphy.com/embed/3ohhwkfYcpOyeuepqw" width="434" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><b>Brian Leonard</b> - In my 4+ years at MongoDB, I have never written a workshop that wasn't ripped off of Brian in some way. #BeLikeBrian<br></br>
+<b>Snehal Bhatia</b>- That Google doc, tho!</p>
+</div>
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Also please join our online <a href="https://developer.mongodb.com/community/forums/">MongoDB Community</a> to interact with our product and engineering teams along with thousands of other MongoDB and Realm users. <br/><br/>Have fun and happy coding!

@@ -10,9 +10,9 @@ const Header = () => {
       </div>
       <div className="flex text-4xl mr-20 text-springgreen font-noto">
         {" "}
-        MongoDB .local Paris
+        MongoDB Day with AWS & Accenture
       </div>
-      <div className="flex text-2xl"> 5 Avril 2022</div>
+      <div className="flex text-2xl"> May 11, 2022</div>
     </div>
   );
 };
