@@ -101,8 +101,10 @@ Feel free to customize for the event name and details, presenters, resources or 
 <h2>Special Thanks </h2>
 <br/>
 
-<div style="display: flex;">
-<iframe src="https://giphy.com/embed/3ohhwkfYcpOyeuepqw" width="434" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><b>Brian Leonard</b> - In my 4+ years at MongoDB, I have never written a workshop that wasn't ripped off of Brian in some way. #BeLikeBrian<br></br>
+<div style="display: flex; ">
+<img style="margin-right: 2em;" src="thanks.png" width="400"  />
+
+<p><b>Brian Leonard</b> - In my 4+ years at MongoDB, I have never written a workshop that wasn't ripped off of Brian in some way. #BeLikeBrian<br></br>
 <b>Snehal Bhatia</b>- That Google doc, tho!</p>
 </div>
 <br/>
