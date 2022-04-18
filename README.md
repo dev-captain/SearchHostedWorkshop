@@ -101,12 +101,12 @@ Feel free to customize for the event name and details, presenters, resources or 
 <h2>Special Thanks </h2>
 <br/>
 
-<div style="display: flex; ">
-<img align="center" src="thanks.png" width="350"  />
-
+<div align="center">
+<img  src="thanks.png" width="350"  />
+</div>
 <p><b>Brian Leonard</b> - In my 4+ years at MongoDB, I have never written a workshop that wasn't ripped off of Brian in some way. #BeLikeBrian<br></br>
 <b>Snehal Bhatia</b>- That Google doc, tho!</p>
-</div>
+
 <br/>
 
 Also please join our online <a href="https://developer.mongodb.com/community/forums/">MongoDB Community</a> to interact with our product and engineering teams along with thousands of other MongoDB and Realm users. <br/><br/>Have fun and happy coding!
