@@ -11,6 +11,8 @@ import SearchHero from "./images/SearchHero.png";
 import SearchIcon from "./images/SearchIcon.png";
 import Compass from "./images/Compass.png";
 import Mflix from "./images/Mflix.png";
+import AWS from "./images/AWS.png";
+import Accenture from "./images/accenture.png";
 
 function App() {
   return (
@@ -19,19 +21,32 @@ function App() {
       <div className="flex flex-col px-20 pt-10">
         <div className="flex items-center">
           <div className="flex flex-col">
-            <div className="flex items-center mx-auto justify-between">
-              <img src={SearchIcon} alt="search hero" className="mx-2 w-24" />
-              <div className="font-noto text-center text-3xl">
-                Atlas Search: To Find it Fast, Look No Further
+            <div className="flex items-center justify-around">
+              <div className="flex items-center mx-auto justify-between">
+                <img src={SearchIcon} alt="search hero" className="mx-2 w-24" />
+                <div className="font-noto text-center text-3xl">
+                  Atlas Search: To Find it Fast, Look No Further
+                </div>
               </div>
-              <div className="ml-40 w-36 p-2 rounded-full border-2 border-springgreen">
-                <img
-                  src={QRCode}
-                  alt="QRCode"
-                  className="mx-auto items-center w-full "
-                />
+
+              <div className="flex">
+                <div className="w-24 p-2">
+                  <img
+                    src={AWS}
+                    alt="AWS Logo"
+                    className="mx-auto items-center w-full "
+                  />
+                </div>
+                <div className="ml-10 w-36 p-2">
+                  <img
+                    src={Accenture}
+                    alt="Accenture Logo"
+                    className="mx-auto items-center w-full "
+                  />
+                </div>
               </div>
             </div>
+
             <div className="flex">
               <img src={SearchHero} alt="search hero" className="mx-6 w-64" />
               <div className=" mx-4 flow-root text-lg mt-4">
@@ -121,6 +136,13 @@ function App() {
               src={Mflix}
               alt="App"
               className="mx-auto items-center shadow-xl rounded-xl w-full mt-4"
+            />
+          </div>
+          <div className="ml-10 w-36 p-1 rounded-full border-2 border-springgreen">
+            <img
+              src={QRCode}
+              alt="QRCode"
+              className="mx-auto items-center w-full "
             />
           </div>
         </div>
