@@ -10,7 +10,7 @@ https://www.atlassearchworkshop.com
 </div>
 <br/>
 
-In the web application, you'll find:
+In the hosted Atlas Search Workshop application, you'll find:
 
 - a Google document with step-by-step instructions
 - an embedded CodeSandbox (ready to fork for workshop attendees) with the code for the MongoDB Netflix Clone found at www.atlassearchmovies.com (https://github.com/khuaulme/AtlasSearchWorkshop2022)
@@ -43,13 +43,17 @@ Future Atlas Search features to implement can include:
 - MongoDB Realm for backend HTTPs endpoints and webhooks
 - The Atlas sample dataset of sample_mflix.movies
 
+<br/>
+<div align="center">
+<img src="NetflixArchitecture.png" width="650"  />
+</div>
+<br/>
+
 <h3>API Points of Integration</h3>
 This application is hosted entirely on Realm and calls 2 API endpoints:
  
  * getProductsEndpoint in the Home.js page on line 24
  * Suggestions_AC_Endpoint, used for autocompleted product names, in the Header.js component on line 17.
-
-<p><em>Currently this app is not suitable for mobile, but feel free to send a PR.</em> 😊</p>
 
 <h3>Attendee Prerequisites:</h3>
 
@@ -57,12 +61,6 @@ This application is hosted entirely on Realm and calls 2 API endpoints:
 - A recent version of Node.js and npm.
 - Atlas sample dataset
 - (Recommended) <a href="https://www.mongodb.com/try/download/compass">MongoDB Compass - GUI (optional)</a>
-
-<p>This application is hosted entirely by MongoDB Atlas was created using:</p>
-
-- React
-- MongoDB Realm for backend HTTPs endpoints and webhooks
-- MongoDB's Atlas sample_mflix dataset
 
 <h2>Workshop Attendees Will Need to:</h2>
 
