@@ -2,7 +2,7 @@ import React from "react";
 
 const CodeSandbox = () => {
   return (
-    <div className="h-full w-100">
+    <div className="h-full w-100 my-4">
       <iframe
         src="https://codesandbox.io/embed/github/khuaulme/AtlasSearchWorkshop2022/tree/main/?fontsize=14&hidenavigation=1&theme=dark"
         className="mt-10 w-11/12 mx-auto h-96"
