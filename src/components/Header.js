@@ -13,7 +13,7 @@ const Header = () => {
         MongoDB World 2022
       </div>
 
-      <div className="flex text-2xl"> New York, June 7-9</div>
+      <div className="flex text-2xl"> June 7-9 in New York 🗽</div>
     </div>
   );
 };
