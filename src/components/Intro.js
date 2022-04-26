@@ -4,7 +4,7 @@ import SearchHero from "../images/Spot_Search.png";
 const Intro = () => {
   return (
     <div className="flex mx-auto mb-8 items-center">
-      <img src={SearchHero} alt="search hero" className="mx-6 w-1/4" />
+      <img src={SearchHero} alt="search hero" className="mx-6 mt-8 w-1/4" />
       <div className="mx-auto text-center items-center justify-center">
         <Title />
         <div className="mx-4 text-lg mt-4">

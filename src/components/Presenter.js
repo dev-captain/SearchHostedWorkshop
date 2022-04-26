@@ -2,11 +2,11 @@ import Twitter from "../images/Twitterblue.png";
 
 const Presenter = ({ bio_pic, name, title, twitter_handle }) => {
   return (
-    <div className="flex mt-10 text-white px-8 text-lg pb-2">
+    <div className="flex mt-10 text-black px-8 text-lg pb-2">
       <img
         src={bio_pic}
         alt="search hero"
-        className="mx-6 w-36 h-48 rounded-full"
+        className="mx-6 w-48 h-48 rounded-full"
       />
       <div className="flex flex-col pt-12">
         <div className="mt-6">

@@ -7,6 +7,7 @@ import Intro from "./components/Intro";
 import Instructions from "./components/Instructions";
 import Promotion from "./components/Promotion";
 import AppPreview from "./components/AppPreview";
+import Presenters from "./components/Presenters";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </div>
 
       <CodeSandbox />
+      <Presenters />
 
       <Footer />
     </div>

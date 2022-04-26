@@ -2,8 +2,6 @@ import React from "react";
 import LOGO from "../images/Logomark.svg";
 import GitHub from "../images/GitHub.png";
 import Community from "../images/Community.png";
-import Presenter from "./Presenter";
-import Karen from "../images/Karen1.png";
 
 const AdditionalResources = () => {
   return (
@@ -105,12 +103,6 @@ const AdditionalResources = () => {
             </a>
           </div>
         </div>
-        <Presenter
-          bio_pic={Karen}
-          name="Karen Huaulmé"
-          title="Principal Developer Advocate"
-          twitter_handle="@YouOldMaid"
-        />
       </div>
       <div className="flex mt-10 justify-around ">
         <iframe
