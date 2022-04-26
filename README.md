@@ -90,8 +90,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <h2>To Customize this Workshop:</h2>
 The workshop is all entirely on App.js with the following React components:
 <div >
-<img src="Top.png" width="350"  />
-<img src="Bottom.png" width="350"  />
+<img src="Top.png" width="550"  />
+<img src="Bottom.png" width="550"  />
 </div>
 
 Feel free to customize for the event name and details, presenters, resources or even the git repo in the embedded code sandbox.
