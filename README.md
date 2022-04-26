@@ -6,7 +6,7 @@ https://www.atlassearchworkshop.com
 
 <br/>
 <div align="center">
-<img src="WorkshopWebSite.png" width="650"  />
+<img src="WorkshopWebsite.png" width="650"  />
 </div>
 <br/>
 
@@ -89,9 +89,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 <h2>To Customize this Workshop:</h2>
 The workshop is all entirely on App.js with the following React components:
-<div style="display:flex;">
-<img src="Header.png" width="350"  />
-<img src="Footer.png" width="350"  />
+<div >
+<img src="Top.png" width="350"  />
+<img src="Bottom.png" width="350"  />
 </div>
 
 Feel free to customize for the event name and details, presenters, resources or even the git repo in the embedded code sandbox.
