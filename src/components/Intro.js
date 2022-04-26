@@ -1,13 +1,13 @@
 import Title from "./Title";
-import SearchHero from "../images/SearchHero.png";
+import SearchHero from "../images/Spot_Search.png";
 
 const Intro = () => {
   return (
-    <div className="flex w-5/6 mx-auto mb-8 items-center">
-      <img src={SearchHero} alt="search hero" className="mx-6 w-1/6" />
+    <div className="flex mx-auto mb-8 items-center">
+      <img src={SearchHero} alt="search hero" className="mx-6 w-1/4" />
       <div className="mx-auto text-center items-center justify-center">
         <Title />
-        <div className="mx-4  text-lg mt-4">
+        <div className="mx-4 text-lg mt-4">
           With Atlas Search, we have made it even easier to work with data by
           allowing you to build powerful, flexible, and sophisticated search
           capabilities into your MongoDB applications!

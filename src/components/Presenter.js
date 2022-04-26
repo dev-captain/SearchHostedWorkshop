@@ -1,5 +1,3 @@
-import React from "react";
-// import Karen from "../images/Karen1.png";
 import Twitter from "../images/Twitterblue.png";
 
 const Presenter = ({ bio_pic, name, title, twitter_handle }) => {

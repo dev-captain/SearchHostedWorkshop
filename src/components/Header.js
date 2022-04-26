@@ -6,14 +6,14 @@ const Header = () => {
     <div className="flex w-full justify-between items-center bg-slateblue text-white px-20">
       <div className="flex text-2xl  ">
         <img className="mr-2 my-auto h-16" src={LOGO} alt="logo" />
-        <div className="my-auto">Atlas Search Workshop </div>
+        <div className="my-auto"></div>
       </div>
-      <div className="flex text-3xl text-springgreen font-noto">
+      <div className="flex text-3xl text-white font-noto">
         {" "}
-        MongoDB World 2022
+        Atlas Search Workshop
       </div>
 
-      <div className="flex text-2xl"> June 7-9 in New York 🗽</div>
+      <div className="flex text-2xl"> April 27, 2022</div>
     </div>
   );
 };
