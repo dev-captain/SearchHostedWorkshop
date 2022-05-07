@@ -1,5 +1,4 @@
 import React from "react";
-import QRCode from "../images/WorldQRCode.png";
 
 const Promotion = () => {
   return (
@@ -13,11 +12,11 @@ const Promotion = () => {
       <br></br>
       <div className="text-xl m-2"> June 7-9 in New York 🗽</div>
       <div className="text-forestgreen">Discount Code: KarenHuaulme25</div>
-      <img
+      {/* <img
         src={QRCode}
         alt="QRCode"
         className="mx-auto mt-4 items-center w-2/3 "
-      />
+      /> */}
       <br></br>
       <div>
         Check out the announcement-packed keynotes, hands-on workshops, and
