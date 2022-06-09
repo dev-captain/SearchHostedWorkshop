@@ -10,10 +10,10 @@ const Header = () => {
       </div>
       <div className="flex text-3xl text-white font-noto">
         {" "}
-        Atlas Search Workshop
+        Score Big with Atlas Search
       </div>
 
-      <div className="flex text-2xl"> April 27, 2022</div>
+      <div className="flex text-2xl">June 9, 2022</div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import Presenter from "./Presenter";
 import Karen from "../images/KWH14.png";
 import Idriss from "../images/Idriss.jpeg";
-import Snehal from "../images/Snehal.jpeg";
+import Charles from "../images/Charles.jpeg";
 
 const Presenters = () => {
   return (
@@ -19,10 +19,10 @@ const Presenters = () => {
         twitter_handle="@YouOldMaid"
       />
       <Presenter
-        bio_pic={Snehal}
-        name="Snehal Bhatia"
+        bio_pic={Charles}
+        name="Charles Van Parys"
         title="Solutions Architect"
-        twitter_handle="@SnehalBhatia8"
+        twitter_handle=""
       />
     </div>
   );

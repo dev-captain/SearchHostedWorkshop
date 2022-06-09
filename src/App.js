@@ -26,7 +26,8 @@ function App() {
         </div>
       </div>
 
-      <CodeSandbox />
+      <CodeSandbox appLink="https://codesandbox.io/embed/github/khuaulme/AtlasSearchWorkshop2022/tree/main/?fontsize=14&hidenavigation=1&theme=dark" />
+      <CodeSandbox appLink="https://codesandbox.io/embed/friendly-rubin-chs0oe?fontsize=14&hidenavigation=1&theme=dark" />
       <Presenters />
 
       <Footer />
