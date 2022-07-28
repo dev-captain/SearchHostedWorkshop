@@ -1,11 +1,12 @@
 import Title from "./Title";
 import SearchHero from "../images/Spot_Search.png";
+import Presenters from "../components/Presenters";
 
 const Intro = () => {
   return (
-    <div className="flex mx-auto mb-8 items-center">
+    <div className="flex mx-auto mb-8 items-center w-full">
       <img src={SearchHero} alt="search hero" className="mx-6 mt-8 w-1/4" />
-      <div className="mx-auto text-center items-center justify-center">
+      <div className="mx-auto text-center items-center justify-center w-1/2">
         <Title />
         <div className="mx-4 text-lg mt-4">
           With Atlas Search, we have made it even easier to work with data by
@@ -26,6 +27,9 @@ const Intro = () => {
           autocomplete, highlighting and many other search features. Along the
           way, we'll also go deep on Lucene analyzers and indexes.
         </div>
+      </div>
+      <div className="w-1/4">
+        <Presenters />
       </div>
     </div>
   );
