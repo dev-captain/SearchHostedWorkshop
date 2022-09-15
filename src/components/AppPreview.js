@@ -7,7 +7,7 @@ const AppPreview = () => {
         className="font-noto text-center text-3xl text-forestgreen"
         target="_blank"
         rel="noopener noreferrer"
-        href="https://netflixclone-xwaaq.mongodbstitch.com"
+        href="https://www.atlassearchmovies.com/"
       >
         www.atlassearchmovies.com
       </a>

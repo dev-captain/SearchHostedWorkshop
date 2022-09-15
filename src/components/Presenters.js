@@ -1,5 +1,5 @@
 import Presenter from "./Presenter";
-import Karen from "../images/KWH14.png";
+import Karen from "../images/Karen.JPG";
 
 const Presenters = () => {
   return (
